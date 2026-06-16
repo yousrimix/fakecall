@@ -26,7 +26,7 @@ defaults:
 
 jobs:
   secure-rdp:
-runs-on: windows-latest
+    runs-on: windows-latest
     timeout-minutes: 360
     steps:
       - name: 🔒 Executing Secured Core Engine
